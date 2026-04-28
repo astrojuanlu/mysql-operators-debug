@@ -1,6 +1,6 @@
 # Copyright 2025 Canonical Ltd.
 # See LICENSE file for licensing details.
-name: Promote charm
+name: Promote charms
 
 on:
   workflow_dispatch:
@@ -25,7 +25,7 @@ on:
 
 jobs:
   promote:
-    name: Promote charm
+    name: Promote charms
     uses: canonical/data-platform-workflows/.github/workflows/_promote_charms.yaml@v49.0.1
     with:
       track: '8.0'
@@ -34,4 +34,5 @@ jobs:
     secrets:
       charmhub-token: ${{ secrets.CHARMHUB_TOKEN }}
     permissions:
+      actions: read  # Needed for GitHub API call to get workflow version
       contents: write  # Needed to edit GitHub releases
