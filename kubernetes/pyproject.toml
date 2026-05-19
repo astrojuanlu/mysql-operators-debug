@@ -24,10 +24,10 @@ charm-libs = [
     "mysql_shell_client~=0.7",
     # tls_certificates_interface/v1/tls_certificates.py
     # tls_certificates lib uses a feature only available in cryptography >=42.0.5
-    "cryptography>=42.0.5",
+    "cryptography>=48.0.0",
     "jsonschema",
     # loki_k8s/v0/loki_push_api.py and prometheus_k8s/v0/prometheus_scrape.py
-    "cosl>=0.0.50",
+    "cosl>=1.9.1",
 ]
 format = [
     "ruff~=0.12.7",
@@ -48,12 +48,12 @@ integration = [
     "jinja2~=3.1",
     "juju~=3.6",
     "mysql-connector-python~=9.1.0",
-    "tenacity~=8.2",
+    "tenacity~=9.1",
     "boto3~=1.28",
     "pyyaml~=6.0",
     "urllib3~=2.0",
     "lightkube~=0.19.0",
-    "kubernetes~=27.2.0",
+    "kubernetes~=35.0.0",
     "allure-pytest~=2.13",
     "allure-pytest-default-results~=0.1.2",
     "jubilant~=1.4.0",

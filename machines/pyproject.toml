@@ -22,12 +22,12 @@ charm-libs = [
     # data_platform_libs/v1/data_models.py
     "pydantic~=2.0",
     # grafana_agent/v0/cos_agent.py
-    "cosl>=0.0.50",
+    "cosl>=1.9.1",
     # mysql/v0/*.py"
     "charm-refresh~=3.1.1",
     "mysql_shell_client~=0.7",
     # tls_certificates_interface/v2/tls_certificates.py
-    "cryptography>=42.0.5",
+    "cryptography>=48.0.0",
     "jsonschema",
 ]
 format = [
@@ -48,7 +48,7 @@ integration = [
     "pytest~=9.0",
     "juju~=3.6",
     "mysql-connector-python~=9.1",
-    "tenacity~=8.2",
+    "tenacity~=9.1",
     "boto3~=1.28",
     "pyyaml~=6.0",
     "urllib3~=2.0",
