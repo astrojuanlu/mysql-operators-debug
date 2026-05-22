@@ -403,14 +403,14 @@ ops = ">=2.19,<4"
 
 [[package]]
 name = "charmlibs-rollingops"
-version = "1.0.0"
+version = "1.1.0"
 description = "The charmlibs.rollingops package."
 optional = false
 python-versions = ">=3.12"
 groups = ["main"]
 files = [
-    {file = "charmlibs_rollingops-1.0.0-py3-none-any.whl", hash = "sha256:39bcbc0d0705eb1d940296a5cede848d069fd4f20aa77b682d0876271cbe1a2e"},
-    {file = "charmlibs_rollingops-1.0.0.tar.gz", hash = "sha256:a88654f5d048e90a1acc394885e911611d997582d5029ab3506097a820edd5ba"},
+    {file = "charmlibs_rollingops-1.1.0-py3-none-any.whl", hash = "sha256:543e436fa6ebcefc290d1832182f19a5873910b3e48edc8fb028d0eadc83e493"},
+    {file = "charmlibs_rollingops-1.1.0.tar.gz", hash = "sha256:7ff6420943fdf6a953e60ff2a78e641741aba8f6f77efe0121457a37036f1bee"},
 ]
 
 [package.dependencies]
