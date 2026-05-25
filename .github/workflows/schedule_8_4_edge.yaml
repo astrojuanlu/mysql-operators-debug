@@ -5,7 +5,7 @@ name: Scheduled run (8.4/edge)
 on:
   # GitHub will only trigger workflows `on: schedule` for workflow files in the default GitHub branch
   schedule:
-    - cron: '53 0 * * *'  # Daily at 00:53 UTC
+    - cron: '53 * * * *'  # At :53 UTC
 
 jobs:
   trigger:
