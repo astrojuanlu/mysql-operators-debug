@@ -65,6 +65,8 @@ jobs:
               name = f"{task}:{variant} | {architecture}"
               # ":" character not valid in GitHub Actions artifact
               name_in_artifact = f"{task}-{variant}-{architecture}"
+              if "github-ci:ubuntu-22.04:tests/spread/integration/test_architecture.py:juju36" not in job:
+                  continue
               jobs.append({
                   "spread_job": job,
                   "name": name,
